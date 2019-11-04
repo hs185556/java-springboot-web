@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <script src="/webjars/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<!-- 
+	推荐使用Webjars的三大理由：
+		将静态资源版本化，更利于升级和维护。
+		剥离静态资源，提高编译速度和打包效率。
+		实现资源共享，有利于统一前端开发。
+	1.在https://www.webjars.org/查找相关的组件，比如jquery
+	Webjars版本定位工具（前端）
+		<dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>webjars-locator-core</artifactId>
+        </dependency>
+		
+	引入jquery模块
+		<dependency>
+		    <groupId>org.webjars</groupId>
+		    <artifactId>jquery</artifactId>
+		    <version>3.3.1</version>
+		</dependency>
+	2.页面引入
+	<script src="/webjars/jquery/3.3.1/jquery.min.js"></script>
+ -->
+<!-- 
+	Thymeleaf 是一款用于渲染 XML/XHTML/HTML5 内容的模板引擎。
+	类似 JSP，Velocity，FreeMaker 等，它也可以轻易的与 Spring MVC 等 Web 框架进行集成作为 Web 应用的模板引擎。
+	与其它模板引擎相比，Thymeleaf 最大的特点是能够直接在浏览器中打开并正确显示模板页面，而不需要启动整个 Web 应用。
+	更多Themeleaf的基础语法见https://www.cnblogs.com/jiangbei/p/8462294.html 
+-->
+<body>
+    <!--/*@thymesVar id="name" type="java.lang.String"*/-->
+    <p th:text="'Hello！, ' + ${name} + '!'">3333</p>
+    <a th:href="@{http://www.baidu.com}">baidu</a>
+    <!-- static -->
+    <img src="/img/11.jpg"></img>
+</body>
+</html>

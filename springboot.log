@@ -1,0 +1,64 @@
+2019-05-24 20:29:04.107  INFO 1300 --- [main] springboot.SpringbootApplicationTests    : Starting SpringbootApplicationTests on SKY-20160717CFG with PID 1300 (started by Administrator in D:\code\06-server\01-java\07-springboot\02-springboot-web)
+2019-05-24 20:29:04.136  INFO 1300 --- [main] springboot.SpringbootApplicationTests    : No active profile set, falling back to default profiles: default
+2019-05-24 20:29:09.839  INFO 1300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-24 20:29:10.034  INFO 1300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 155ms. Found 1 repository interfaces.
+2019-05-24 20:29:11.844  INFO 1300 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6c0df99f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-24 20:29:13.415  INFO 1300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-24 20:29:14.541  INFO 1300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-24 20:29:23.666  INFO 1300 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-24 20:33:14.264  INFO 6852 --- [main] springboot.SpringbootApplicationTests    : Starting SpringbootApplicationTests on SKY-20160717CFG with PID 6852 (started by Administrator in D:\code\06-server\01-java\07-springboot\02-springboot-web)
+2019-05-24 20:33:14.266  INFO 6852 --- [main] springboot.SpringbootApplicationTests    : No active profile set, falling back to default profiles: default
+2019-05-24 20:33:14.985  INFO 1784 --- [main] springboot.SpringbootApplicationTests    : Starting SpringbootApplicationTests on SKY-20160717CFG with PID 1784 (started by Administrator in D:\code\06-server\01-java\07-springboot\02-springboot-web)
+2019-05-24 20:33:14.988  INFO 1784 --- [main] springboot.SpringbootApplicationTests    : No active profile set, falling back to default profiles: default
+2019-05-24 20:33:17.501  INFO 6852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-24 20:33:17.559  INFO 1784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-24 20:33:17.613  INFO 6852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99ms. Found 1 repository interfaces.
+2019-05-24 20:33:17.727  INFO 1784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 153ms. Found 1 repository interfaces.
+2019-05-24 20:33:18.743  INFO 6852 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e719e25f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-24 20:33:18.900  INFO 1784 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d25524ac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-24 20:33:19.309  INFO 6852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-24 20:33:19.731  INFO 1784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-24 20:33:19.970  INFO 6852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-24 20:33:20.233  INFO 1784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-24 20:33:22.996  INFO 6852 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-24 20:33:23.047  INFO 1784 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-24 20:33:29.250  INFO 1784 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-24 20:33:29.557  INFO 6852 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-24 20:33:30.526  WARN 1784 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-24 20:33:30.643  WARN 6852 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-24 20:33:32.300  WARN 1784 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-05-24 20:33:32.338  WARN 6852 --- [main] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-05-24 20:33:33.920  INFO 6852 --- [main] springboot.SpringbootApplicationTests    : Started SpringbootApplicationTests in 21.031 seconds (JVM running for 24.183)
+2019-05-24 20:33:33.998  INFO 1784 --- [main] springboot.SpringbootApplicationTests    : Started SpringbootApplicationTests in 20.306 seconds (JVM running for 23.572)
+2019-05-24 20:33:34.501  INFO 1784 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-24 20:33:34.502  INFO 1784 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-24 20:33:34.520  INFO 1784 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-24 20:33:34.530  INFO 6852 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-24 20:33:34.535  INFO 1784 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-05-24 20:33:34.537  INFO 6852 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-24 20:33:34.548  INFO 6852 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-24 20:33:34.608  INFO 6852 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-05-24 20:35:05.988  INFO 3900 --- [restartedMain] springboot.SpringbootApplication         : Starting SpringbootApplication on SKY-20160717CFG with PID 3900 (D:\code\06-server\01-java\07-springboot\02-springboot-web\target\classes started by Administrator in D:\code\06-server\01-java\07-springboot\02-springboot-web)
+2019-05-24 20:35:05.992  INFO 3900 --- [restartedMain] springboot.SpringbootApplication         : No active profile set, falling back to default profiles: default
+2019-05-24 20:35:06.083  INFO 3900 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-24 20:35:06.084  INFO 3900 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-24 20:35:07.664  INFO 3900 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-24 20:35:07.788  INFO 3900 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109ms. Found 1 repository interfaces.
+2019-05-24 20:35:08.521  INFO 3900 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$75433c36] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-24 20:35:10.547  INFO 3900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-24 20:35:10.732  INFO 3900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-24 20:35:10.734  INFO 3900 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-24 20:35:11.801  INFO 3900 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-24 20:35:11.802  INFO 3900 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5718 ms
+2019-05-24 20:35:12.391  INFO 3900 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-24 20:35:12.782  INFO 3900 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-24 20:35:14.873  INFO 3900 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-24 20:35:14.903  INFO 3900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-24 20:35:15.992  INFO 3900 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-24 20:35:16.061  WARN 3900 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-24 20:35:16.214  WARN 3900 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-05-24 20:35:16.827  INFO 3900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-24 20:35:16.830  INFO 3900 --- [restartedMain] springboot.SpringbootApplication         : Started SpringbootApplication in 11.628 seconds (JVM running for 12.674)
+2019-05-24 20:35:19.319  INFO 3900 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-24 20:35:19.320  INFO 3900 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-24 20:35:19.470  INFO 3900 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 150 ms
